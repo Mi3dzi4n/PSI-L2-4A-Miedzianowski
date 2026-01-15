@@ -1,5 +1,7 @@
 function zmienKolor() {
-    const colors = ["#f0f0f0", "#d1e7ff", "#d4edda", "#fff3cd"];
-    const randomColor = colors[Math.floor(Math.random() * colors.length)];
-    document.body.style.backgroundColor = randomColor;
+    const kolory = ["#eef2f3", "#d1e7ff", "#d4edda", "#fff3cd", "#f8d7da"];
+    const losowyKolor = kolory[Math.floor(Math.random() * kolory.length)];
+
+    document.body.style.backgroundColor = losowyKolor;
+    alert("Zmieniono kolor tła!");
 }
